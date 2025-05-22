@@ -56,7 +56,7 @@ class _ScratcherGameState extends State<ScratcherGame> {
 
     // Attempt to precache the image to debug any loading issues
     try {
-      precacheImage(AssetImage(Assets.scratch), context).then((_) {
+      precacheImage(AssetImage(Assets.scratchPattern), context).then((_) {
         print("Image pre-cached successfully");
       }).catchError((error) {
         print("Failed to pre-cache image: $error");
@@ -179,7 +179,7 @@ class _ScratcherGameState extends State<ScratcherGame> {
                           brushSize: 20,
                           threshold: 50,
                           image: Image.asset(
-                            Assets.scratch,
+                            Assets.scratchPattern,
                             fit: BoxFit.cover,
                           ),
                           accuracy: ScratchAccuracy.medium,

@@ -44,4 +44,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 .idea
-assets/winlads_splash_logo.png
+assets/logo/winlads_splash_logo.png
