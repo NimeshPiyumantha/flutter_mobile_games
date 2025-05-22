@@ -1,4 +1,4 @@
-package com.example.flutter_mobile_games
+package com.example.scratch_game
 
 import io.flutter.embedding.android.FlutterActivity
 

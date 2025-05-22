@@ -1,6 +1,6 @@
 {
-    "name": "flutter_mobile_games",
-    "short_name": "flutter_mobile_games",
+    "name": "scratch_game",
+    "short_name": "scratch_game",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
